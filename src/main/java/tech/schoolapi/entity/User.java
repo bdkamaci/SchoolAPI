@@ -2,8 +2,7 @@ package tech.schoolapi.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 import tech.schoolapi.entity.enums.Role;
 
 import java.util.List;
@@ -12,11 +11,16 @@ import java.util.List;
 @Table(name = "users")
 @Getter
 @Setter
+@RequiredArgsConstructor
+@AllArgsConstructor
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "user_id")
     private Long id;
+
+    @Column(name = "user_username", nullable = false, unique = true)
+    private String username;
 
     @Column(name = "user_name", nullable = false)
     private String name;
