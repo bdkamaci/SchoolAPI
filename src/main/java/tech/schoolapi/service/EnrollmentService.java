@@ -1,13 +1,14 @@
 package tech.schoolapi.service;
 
 import org.springframework.http.ResponseEntity;
+import tech.schoolapi.entity.Enrollment;
 import tech.schoolapi.entity.Student;
 
 public interface EnrollmentService {
 
-    public ResponseEntity addEnrollment(Student student);
+    public ResponseEntity addEnrollment(Enrollment enrollment);
 
-    public ResponseEntity updateEnrollment(Student student);
+    public ResponseEntity updateEnrollment(Enrollment enrollment);
 
     public ResponseEntity deleteEnrollment(Long id);
 

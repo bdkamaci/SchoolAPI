@@ -1,13 +1,13 @@
 package tech.schoolapi.service;
 
 import org.springframework.http.ResponseEntity;
-import tech.schoolapi.entity.Student;
+import tech.schoolapi.entity.Grade;
 
 public interface GradeService {
 
-    public ResponseEntity addGrade(Student student);
+    public ResponseEntity addGrade(Grade grade);
 
-    public ResponseEntity updateGrade(Student student);
+    public ResponseEntity updateGrade(Grade grade);
 
     public ResponseEntity deleteGrade(Long id);
 
