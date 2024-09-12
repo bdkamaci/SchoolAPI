@@ -5,7 +5,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
-import tech.schoolapi.dto.LoginRequest;
+import tech.schoolapi.dto.request.user.LoginRequest;
 import tech.schoolapi.entity.User;
 import tech.schoolapi.repository.UserRepository;
 import tech.schoolapi.security.JwtTokenProvider;

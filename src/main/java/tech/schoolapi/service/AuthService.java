@@ -1,7 +1,7 @@
 package tech.schoolapi.service;
 
 import jakarta.servlet.http.HttpServletRequest;
-import tech.schoolapi.dto.LoginRequest;
+import tech.schoolapi.dto.request.user.LoginRequest;
 import tech.schoolapi.entity.User;
 
 public interface AuthService {

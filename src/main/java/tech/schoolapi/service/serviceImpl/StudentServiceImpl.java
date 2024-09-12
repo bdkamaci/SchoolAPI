@@ -5,7 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import tech.schoolapi.core.config.modelMapper.ModelMapperService;
-import tech.schoolapi.dto.response.StudentResponse;
+import tech.schoolapi.dto.response.student.StudentResponse;
 import tech.schoolapi.entity.Student;
 import tech.schoolapi.repository.StudentRepository;
 import tech.schoolapi.service.StudentService;
