@@ -1,0 +1,90 @@
+# API Documentation
+
+This document provides an overview of the API endpoints and their functions of SchoolAPI.
+
+## Attendance Endpoints
+
+| Endpoint                              | HTTP Method | Description                                                           |
+|---------------------------------------|-------------|-----------------------------------------------------------------------|
+| /attendances                          | GET         | Retrieve all attendances.                                             |
+| /attendances/{id}                     | GET         | Retrieve the attendance with the specified ID.                        |
+| /attendances                          | POST        | Add new attendance.                                                   |
+| /attendances/{id}                     | PUT         | Update the attendance with the specified ID.                          |
+| /attendances/{id}                     | DELETE      | Delete the attendance with the specified ID.                          |
+
+## Auth Endpoints
+
+| Endpoint                              | HTTP Method | Description                                                           |
+|---------------------------------------|-------------|-----------------------------------------------------------------------|
+| /auth/login                           | POST        | Login operation of the customer.                                      |
+| /auth/logout                          | POST        | Logout operation of the customer.                                     |
+| /auth/register                        | POST        | Add new user.                                                         |
+
+## Course Endpoints
+
+| Endpoint                              | HTTP Method | Description                                                           |
+|---------------------------------------|-------------|-----------------------------------------------------------------------|
+| /courses                              | GET         | Retrieve all courses.                                                 |
+| /courses/{id}                         | GET         | Retrieve the course with the specified ID.                            |
+| /courses                              | POST        | Add new course.                                                       |
+| /courses/{id}                         | PUT         | Update the course with the specified ID.                              |
+| /courses/{id}                         | DELETE      | Delete the course with the specified ID.                              |
+
+## Educator Endpoints
+
+| Endpoint                              | HTTP Method | Description                                                           |
+|---------------------------------------|-------------|-----------------------------------------------------------------------|
+| /educators                            | GET         | Retrieve all educators.                                               |
+| /educators/{id}                       | GET         | Retrieve the educator with the specified ID.                          |
+| /educators                            | POST        | Add new educator.                                                     |
+| /educators/{id}                       | PUT         | Update the educator with the specified ID.                            |
+| /educators/{id}                       | DELETE      | Delete the educator with the specified ID.                            |
+
+## Enrollment Endpoints
+
+| Endpoint                              | HTTP Method | Description                                                           |
+|---------------------------------------|-------------|-----------------------------------------------------------------------|
+| /enrollments                          | GET         | Retrieve all enrollments.                                             |
+| /enrollments/{id}                     | GET         | Retrieve the enrollment with the specified ID.                        |
+| /enrollments                          | POST        | Add new enrollment.                                                   |
+| /enrollments/{id}                     | PUT         | Update the enrollment with the specified ID.                          |
+| /enrollments/{id}                     | DELETE      | Delete the enrollment with the specified ID.                          |
+
+## Exam Endpoints
+
+| Endpoint                              | HTTP Method | Description                                                           |
+|---------------------------------------|-------------|-----------------------------------------------------------------------|
+| /exams                                | GET         | Retrieve all exams.                                                   |
+| /exams/{id}                           | GET         | Retrieve the exam with the specified ID.                              |
+| /exams                                | POST        | Add new exam.                                                         |
+| /exams/{id}                           | PUT         | Update the exam with the specified ID.                                |
+| /exams/{id}                           | DELETE      | Delete the exam with the specified ID.                                |
+
+## Grade Endpoints
+
+| Endpoint                              | HTTP Method | Description                                                           |
+|---------------------------------------|-------------|-----------------------------------------------------------------------|
+| /grades                               | GET         | Retrieve all grades.                                                  |
+| /grades/{id}                          | GET         | Retrieve the grade with the specified ID.                             |
+| /grades                               | POST        | Add new grade.                                                        |
+| /grades/{id}                          | PUT         | Update the grade with the specified ID.                               |
+| /grades/{id}                          | DELETE      | Delete the grade with the specified ID.                               |
+
+## Student Endpoints
+
+| Endpoint                              | HTTP Method | Description                                                           |
+|---------------------------------------|-------------|-----------------------------------------------------------------------|
+| /students                             | GET         | Retrieve all students.                                                |
+| /students/{id}                        | GET         | Retrieve the student with the specified ID.                           |
+| /students                             | POST        | Add new student.                                                      |
+| /students/{id}                        | PUT         | Update the student with the specified ID.                             |
+| /students/{id}                        | DELETE      | Delete the student with the specified ID.                             |
+
+## User Endpoints
+
+| Endpoint                              | HTTP Method | Description                                                           |
+|---------------------------------------|-------------|-----------------------------------------------------------------------|
+| /users                                | GET         | Retrieve all users.                                                   |
+| /users/{id}                           | GET         | Retrieve the user with the specified ID.                              |
+| /users/{id}                           | PUT         | Update the exam with the specified ID.                                |
+| /users/{id}                           | DELETE      | Delete the exam with the specified ID.                                |
